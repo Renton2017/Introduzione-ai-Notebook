@@ -1,0 +1,133 @@
+C:/Users/OLYMPIA/Anaconda3/pkgs/python-3.6.6-hea74fb7_0/python
+
+
+C:\Users\OLYMPIA\Anaconda3\pkgs\python-3.6.6-hea74fb7_0\python
+
+
+C:\Users\OLYMPIA\Anaconda3\pkgs\python-3.5.5-1
+
+C:\Users\OLYMPIA\Anaconda3\pkgs\python-3.6.6-hea74fb7_0
+
+
+C:\Users\OLYMPIA\Anaconda3\pkgs\python-3.6.3-h9e2ca53_1
+
+
+
+
+"C:\\Users\\OLYMPIA\\Zeppelin\\zeppelin-0.6.2-bin-all/local-repo/2D8ETS9M3
+
+
+C:\\Users\\OLYMPIA\\Anaconda3\\pkgs\\python-3.6.6-hea74fb7_0\\python
+
+
+--------------------------------------------------------------------------------------
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.thrift.transport.TSocket.open(TSocket.java:182)
+	at org.apache.zeppelin.interpreter.remote.ClientFactory.create(ClientFactory.java:51)
+	at org.apache.zeppelin.interpreter.remote.ClientFactory.create(ClientFactory.java:37)
+	at org.apache.commons.pool2.BasePooledObjectFactory.makeObject(BasePooledObjectFactory.java:60)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:861)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at org.apache.zeppelin.interpreter.remote.RemoteInterpreterProcess.getClient(RemoteInterpreterProcess.java:189)
+	at org.apache.zeppelin.interpreter.remote.RemoteInterpreter.init(RemoteInterpreter.java:163)
+	at org.apache.zeppelin.interpreter.remote.RemoteInterpreter.getFormType(RemoteInterpreter.java:328)
+	at org.apache.zeppelin.interpreter.LazyOpenInterpreter.getFormType(LazyOpenInterpreter.java:105)
+	at org.apache.zeppelin.notebook.Paragraph.jobRun(Paragraph.java:260)
+	at org.apache.zeppelin.scheduler.Job.run(Job.java:176)
+	at org.apache.zeppelin.scheduler.RemoteScheduler$JobRunner.run(RemoteScheduler.java:328)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+-------------------------------------------------------------------------------------------------------------------------------
+
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+ModuleNotFoundError: No module named 'numpy'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ModuleNotFoundError: No module named 'matplotlib'
+-----------------------------------------------------------------------
+Check your $PATH variable contains python path And CONDA_NPY & CONDA_PREFIX are set
+
+
+---------------------------------------------------------------------------------------------
+
+Jupyter vs Apache Zeppelin: What are the differences?
+
+Developers describe Jupyter as "Multi-language interactive computing environments". 
+The Jupyter Notebook is a web-based interactive computing platform. The notebook combines live code, equations, narrative text, 
+visualizations, interactive dashboards and other media. On the other hand, Apache Zeppelin is detailed as "A web-based notebook that enables interactive data analytics". 
+A web-based notebook that enables interactive data analytics. You can make beautiful data-driven, interactive and collaborative documents with SQL, Scala and more.
+
+Jupyter and Apache Zeppelin can be primarily classified as "Data Science Notebooks" tools.
+
+Jupyter and Apache Zeppelin are both open source tools. It seems that Jupyter with 5.99K GitHub stars and 2.54K forks on GitHub 
+has more adoption than Apache Zeppelin with 4.23K GitHub stars and 2.1K GitHub forks.
+
+Intuit, Checkr, and Policygenius are some of the popular companies that use Jupyter, whereas Apache Zeppelin is used by Contently, 
+NBT Inc., and Badgeville. 
+Jupyter has a broader approval, being mentioned in 76 company stacks & 40 developers stacks; compared to Apache Zeppelin, 
+which is listed in 20 company stacks and 6 developer stacks.
+
+https://stackshare.io/stackups/jupyter-vs-zeppelin
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+C:/Users/OLYMPIA/Desktop/Master en BIGDATA/Python on Zeppelin/Titanic_Zeppelin
+
+
+------------------------------------------------------------------------------------
+C:\Users\OLYMPIA\Anaconda3\python
+
+1000 zpmaxResults
+
+true zpuserIpython 
+
+%sql 
+select age, count(1) value
+from bank 
+where age < 30 
+group by age 
+order by age
+
+
+%sql 
+select Age, count(1) value 
+from titanic 
+where Sex="${Sex=female,female|male}" 
+group by Age 
+order by Age
+
+
+
+
+C:\Users\OLYMPIA\Desktop\Master en BIGDATA\Python on Zeppelin
+
+
+C:/Users/OLYMPIA/Desktop/Master en BIGDATA/Python on Zeppelin/titanic
+
+
+JAVA_HOME=C:\Program Files\Java\jdk1.8.0_161
+
+
+------------------------------------
+
+%sql
+SELECT * FROM titanic WHERE Age < 20
+
+
+
+
+
